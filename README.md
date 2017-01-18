@@ -5,7 +5,7 @@ An easy way to start Hadoop based assignments in [CS246](https://web.stanford.ed
 ## Requirements
 
 * Java 8 SDK
-* Eclipse
+* Eclipse (optional, project contains plugins for generating Eclipse project files)
 
 ## Instructions
 
