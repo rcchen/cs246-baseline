@@ -1,5 +1,6 @@
 apply plugin: "application"
 apply plugin: "eclipse"
+apply plugin: "idea"
 apply plugin: "java"
 
 sourceCompatibility = 1.8
