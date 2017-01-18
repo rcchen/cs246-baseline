@@ -4,7 +4,7 @@ An easy way to start Hadoop based assignments in [CS246](https://web.stanford.ed
 
 ## Requirements
 
-* Java 8 SDK
+* Java 8 SDK (older versions possible, see FAQ)
 * Eclipse (optional, project contains plugins for generating Eclipse project files)
 
 ## Instructions
@@ -31,8 +31,14 @@ To define your own run task, just copy that block, paste it somewhere else in `b
 
 ## FAQ
 
-Q: Is the Java 8 SDK strictly necessary? I have the Java <8 SDK installed.
-A: No, it is not necessary. However, there are a ton of features in Java 8 that you might like to use like lambdas. If you want to use an older Java SDK, just change the `sourceCompatibility` line in `build.gradle` to match your installed SDK version.
+**Is the Java 8 SDK strictly necessary? I have the Java < 8 SDK installed.**
 
-Q: Don't we need a cluster to run things for this class?
-A: Nope. See https://piazza.com/class/ixhxcsxn21l1fu?cid=99
+No, it is not necessary. However, there are a ton of features in Java 8 that you might like to use like lambdas. If you want to use an older Java SDK, just change the `sourceCompatibility` line in `build.gradle` to match your installed SDK version.
+
+**Don't we need a cluster to run things for this class?**
+
+Nope. See https://piazza.com/class/ixhxcsxn21l1fu?cid=99
+
+**I don't have Java locally. How do I install it?**
+
+Probably just download the package corresponding to your OS from here: http://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html
