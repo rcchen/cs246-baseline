@@ -1,0 +1,26 @@
+apply plugin: "application"
+apply plugin: "eclipse"
+apply plugin: "java"
+
+sourceCompatibility = 1.8
+
+repositories {
+  mavenCentral()
+}
+
+dependencies {
+  compile group: "org.apache.hadoop", name: "hadoop-client", version: "2.7.3"
+  compile group: "org.apache.hadoop", name: "hadoop-common", version: "2.7.3"
+}
+
+task removeOutput(type: Delete) {
+  delete "output"
+}
+
+task runWordCount(type: JavaExec) {
+  dependsOn removeOutput
+
+  main = "edu.stanford.cs246.wordcount.WordCount"
+  classpath = sourceSets.main.runtimeClasspath
+  args = ["data/pg100.txt", "output"]
+}

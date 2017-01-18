@@ -1,4 +1,6 @@
-# Gradle: https://github.com/github/gitignore/blob/master/Gradle.gitignore
+####
+## Gradle: https://github.com/github/gitignore/blob/master/Gradle.gitignore
+####
 
 .gradle
 /build/
@@ -15,7 +17,9 @@ gradle-app.setting
 # # Work around https://youtrack.jetbrains.com/issue/IDEA-116898
 # gradle/wrapper/gradle-wrapper.properties
 
-# Java: https://github.com/github/gitignore/blob/master/Java.gitignore
+####
+## Java: https://github.com/github/gitignore/blob/master/Java.gitignore
+####
 
 *.class
 
@@ -42,7 +46,6 @@ hs_err_pid*
 # Icon must end with two \r
 Icon
 
-
 # Thumbnails
 ._*
 
@@ -61,3 +64,65 @@ Icon
 Network Trash Folder
 Temporary Items
 .apdisk
+/bin/
+
+####
+## Eclipse: https://github.com/github/gitignore/blob/master/Global/Eclipse.gitignore
+####
+
+.metadata
+bin/
+tmp/
+*.tmp
+*.bak
+*.swp
+*~.nib
+local.properties
+.settings/
+.loadpath
+.recommenders
+
+# Eclipse Core
+.project
+
+# External tool builders
+.externalToolBuilders/
+
+# Locally stored "Eclipse launch configurations"
+*.launch
+
+# PyDev specific (Python IDE for Eclipse)
+*.pydevproject
+
+# CDT-specific (C/C++ Development Tooling)
+.cproject
+
+# JDT-specific (Eclipse Java Development Tools)
+.classpath
+
+# Java annotation processor (APT)
+.factorypath
+
+# PDT-specific (PHP Development Tools)
+.buildpath
+
+# sbteclipse plugin
+.target
+
+# Tern plugin
+.tern-project
+
+# TeXlipse plugin
+.texlipse
+
+# STS (Spring Tool Suite)
+.springBeans
+
+# Code Recommenders
+.recommenders/
+
+####
+## CS246
+####
+
+output
